@@ -32,3 +32,5 @@ Deploy `dist/` to a static host. Fonts and photos are served locally. No secrets
 ## Image attribution
 
 Local illustrative house images are from the assets of [codewithsadee/realvine](https://github.com/codewithsadee/realvine), whose README states the project is free to use. They are not Integrity Roofing projects. Replace with company-owned photos before launch. Typography is distributed by @fontsource; font licenses are included in those npm packages.
+
+Service-card photographs (`public/images/service-*.webp`) are AI-generated illustrations, not completed company projects.
