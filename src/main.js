@@ -21,7 +21,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
 document.getElementById('estimate-form').addEventListener('submit', event => {
   event.preventDefault();
   const values = new FormData(event.currentTarget);
-  const request = `INEGRITY ROOFING — ESTIMATE REQUEST\n\nName: ${values.get('name')}\nPhone: ${values.get('phone')}\nEmail: ${values.get('email')}\nService: ${values.get('service')}\n\nProject details:\n${values.get('message') || 'Not provided'}\n\nThis request has not been sent. Please share it with your roofing provider.`;
+  const request = `INTEGRITY ROOFING — ESTIMATE REQUEST\n\nName: ${values.get('name')}\nPhone: ${values.get('phone')}\nEmail: ${values.get('email')}\nService: ${values.get('service')}\n\nProject details:\n${values.get('message') || 'Not provided'}\n\nThis request has not been sent. Please share it with your roofing provider.`;
   const url = URL.createObjectURL(new Blob([request], {type: 'text/plain'}));
   const result = document.getElementById('form-result');
   result.replaceChildren();
@@ -29,7 +29,7 @@ document.getElementById('estimate-form').addEventListener('submit', event => {
   message.textContent = 'Your request is ready. It has not been sent. Download it to keep or share with your roofing provider.';
   const download = document.createElement('a');
   download.href = url;
-  download.download = 'inegrity-roofing-estimate.txt';
+  download.download = 'integrity-roofing-estimate.txt';
   download.textContent = 'Download my request ↓';
   result.append(message, download);
   result.hidden = false;

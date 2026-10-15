@@ -1,4 +1,4 @@
-# Inegrity Roofing
+# Integrity Roofing
 
 Responsive roofing website built with Vite, semantic HTML, CSS, and JavaScript.
 
@@ -7,7 +7,7 @@ Responsive roofing website built with Vite, semantic HTML, CSS, and JavaScript.
 Use Node.js 22+ and the existing checkout; no separate worktree is needed.
 
 ```sh
-npm ci --cache /tmp/inegrity-npm-cache
+npm ci --cache /tmp/integrity-npm-cache
 npm run dev -- --port 5173
 ```
 
@@ -22,7 +22,7 @@ Deploy `dist/` to a static host. Fonts and photos are served locally. No secrets
 
 ## Before launch
 
-- Confirm the requested spelling **Inegrity Roofing**.
+- Company name: **Integrity Roofing**.
 - The reference site https://ahi-roofing.com/ was inaccessible from the build environment. Verify actual services and business copy against it before publishing.
 - Supply the real business phone, contact email, address, service area, licensing, and actual project photography. No reviews, certifications, or geographic claims have been invented.
 - Connect the estimate form to a real server or form service, with spam protection and privacy/consent handling. Currently it generates a local text download and explicitly does not submit information.
@@ -31,4 +31,4 @@ Deploy `dist/` to a static host. Fonts and photos are served locally. No secrets
 
 ## Image attribution
 
-Local illustrative house images are from the assets of [codewithsadee/realvine](https://github.com/codewithsadee/realvine), whose README states the project is free to use. They are not Inegrity Roofing projects. Replace with company-owned photos before launch. Typography is distributed by @fontsource; font licenses are included in those npm packages.
+Local illustrative house images are from the assets of [codewithsadee/realvine](https://github.com/codewithsadee/realvine), whose README states the project is free to use. They are not Integrity Roofing projects. Replace with company-owned photos before launch. Typography is distributed by @fontsource; font licenses are included in those npm packages.
